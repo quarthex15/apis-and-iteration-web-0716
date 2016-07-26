@@ -25,6 +25,9 @@ def get_character_movies_from_api(character)
 end
 
 def parse_character_movies(films_hash)
+  films_hash.each do |film|
+    #Put puts here
+  end
   # some iteration magic and puts out the movies in a nice list
 end
 

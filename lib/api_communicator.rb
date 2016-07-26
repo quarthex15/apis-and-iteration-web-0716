@@ -25,9 +25,19 @@ def get_character_movies_from_api(character)
 end
 
 def parse_character_movies(films_hash)
+  output_array = []
   films_hash.each do |film|
-    #Put puts here
+    title = film["title"]
+    director = film["director"]
+    episode_number = film["episode_id"]
+    
+    #Put puts here'
+
+    output_array << "Episode #{episode_number}: #{title}, directed by #{director}"
+
   end
+  puts output_array.sort
+
   # some iteration magic and puts out the movies in a nice list
 end
 

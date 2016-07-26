@@ -1,4 +1,5 @@
 def welcome
+  puts "Welcome! May the force be with you!"
   # puts out a welcome message here!
 end
 
